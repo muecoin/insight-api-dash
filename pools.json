@@ -1,5 +1,21 @@
 [
   {
+    "poolName":"WeMineMUE",
+    "url":"https://pool.weminemue.com/",
+    "searchStrings":[
+      "weminemue.com",
+      "pool.weminemue.com"
+    ]
+  },
+  {
+    "poolName":"MinerTopia",
+    "url":"https://pool.minertopia.org/",
+    "searchStrings":[
+      "minertopia.org",
+      "pool.minertopia.org"
+    ]
+  },
+  {
     "poolName": "50BTC",
     "url": "https://50btc.com/",
     "searchStrings": [

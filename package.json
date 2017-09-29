@@ -1,8 +1,8 @@
 {
-  "name": "insight-api-dash",
-  "description": "A Dash blockchain REST and web socket API service for Bitcore Node.",
-  "version": "0.4.5",
-  "repository": "git://github.com/dashpay/insight-api-dash.git",
+  "name": "insight-api-mue",
+  "description": "A MonetaryUnit blockchain REST and web socket API service for Bitcore Node.",
+  "version": "0.1.0",
+  "repository": "git://github.com/muecoin/insight-api-mue.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -35,12 +35,16 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Al Z",
+      "email": "awz@empirictechs.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashpay/insight-api-dash/issues"
+    "url": "https://github.com/muecoin/insight-api-mue/issues"
   },
-  "homepage": "https://github.com/dashpay/insight-api-dash",
+  "homepage": "https://github.com/muecoin/insight-api-mue",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -49,7 +53,13 @@
     "dash api",
     "blockchain api",
     "json",
-    "bitcore-dash"
+    "bitcore-dash",
+    "bitcore-mue",
+    "mue api",
+    "monetaryunit api",
+    "mue api",
+    "monetaryunit",
+    "mue"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -61,8 +71,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-dash": "^0.13.20",
-    "bitcore-message-dash": "^1.0.5",
+    "bitcore-lib-mue": "latest",
+    "bitcore-message-mue": "latest",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",

@@ -1,7 +1,8 @@
 'use strict';
+// TODO add mue tx info
 var should = require('should');
 var sinon = require('sinon');
-var bitcore = require('bitcore-lib-dash');
+var bitcore = require('bitcore-lib-mue');
 var TxController = require('../lib/transactions');
 var _ = require('lodash');
 
